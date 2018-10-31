@@ -4,7 +4,7 @@ package insertion2;
 import java.util.Scanner;
 
 public class Insertion2 {
-
+//create an array 
     public void insert(){
     int V[]={78,79,80,81,82,83,84,85};
     int i=2,n=5,x=55,j=n;
@@ -23,7 +23,7 @@ public class Insertion2 {
 //    if(i>n){
 //    System.out.println("Error!!!");
 //    }
-  
+ //use while loop 
     while(j>=i){ 
         V[j+1]=V[j];//shift elements in pos 4 to 5
         j=j-1;//3       
